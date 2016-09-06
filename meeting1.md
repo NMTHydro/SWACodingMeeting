@@ -71,4 +71,8 @@ Common Do's/Don'ts
   for line in lines:
     ...
   ```
-  
+
+TODOs
+-------------------
+- open a file and write its contents to another file
+- open a csv file and write its contents slightly modified to another file. e.g swap column order, format number (0.000), add a column, etc
