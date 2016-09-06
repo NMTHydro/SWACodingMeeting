@@ -32,7 +32,7 @@ Using conda
 
 Common Do's/Don'ts
 - string assembly
-  ```
+  ```python
   # do
   new_str = 'this is a {} formatted string => {}'.format(desc, myvar)
   
@@ -40,7 +40,7 @@ Common Do's/Don'ts
   new_str = 'this is a'+' poorly '+ 'formatted string => '+'some text'
   ```
 - path assembly
-  ```
+  ```python
   # do
   new_path = os.path.join(a,b,c)
   
@@ -51,7 +51,7 @@ Common Do's/Don'ts
   home = os.path.expandusr('~')
   ```
 - opening a file
-  ```
+  ```python
   # do
   with open(path_to_file, 'r') as rfile:
     for line in rfile:
@@ -66,7 +66,7 @@ Common Do's/Don'ts
   for line in rfile:
     ...
     
-  # dont'
+  # dont
   lines = rfile.readlines()
   for line in lines:
     ...
