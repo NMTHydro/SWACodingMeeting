@@ -71,6 +71,28 @@ Common Do's/Don'ts
   for line in lines:
     ...
   ```
+- iteration
+  ```python
+  # Use xrange instead of range
+  # Don't
+  for i in range(10):
+  	print i
+  	
+  # Do
+  for i in xrange(10):
+  	print i
+  	
+  # Use enumerate instead of manual counter
+  # Don't
+  cnt = 0
+  for line in xrange(10,20):
+  	print cnt, line
+  	cnt+=1
+  	
+  # Do
+  for cnt, line in enumerate(xrange(10,20)):
+  	print cnt, line
+  ```
 
 TODOs
 -------------------
