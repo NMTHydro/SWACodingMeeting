@@ -75,4 +75,4 @@ Common Do's/Don'ts
 TODOs
 -------------------
 - open a file and write its contents to another file
-- open a csv file and write its contents slightly modified to another file. e.g swap column order, format number (0.000), add a column, etc
+- open a csv file and write its contents slightly modified to another file. e.g swap column order, format number (0.000), add a column, etc. See [csvdata.csv](https://github.com/NMTHydro/SWACodingMeeting/blob/master/csvdata.csv) for an example file
