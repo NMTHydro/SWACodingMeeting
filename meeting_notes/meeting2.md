@@ -13,10 +13,13 @@ Current status
 - anaconda installed?
 - project interpreter set in pycharm 
 
+This week
+---------
+- variable_naming.md
+- go over last weeks code
 
 Last Weeks Code Tasks
 ---------------------
-- variable_naming.md
 - analyze examples
 - discuss good and bad styles/snippets
 - highlight pep8
