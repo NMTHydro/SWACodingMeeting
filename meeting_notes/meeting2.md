@@ -15,7 +15,8 @@ Current status
 
 
 Last Weeks Code Tasks
-----------------------
+---------------------
+- variable_naming.md
 - analyze examples
 - discuss good and bad styles/snippets
 - highlight pep8
