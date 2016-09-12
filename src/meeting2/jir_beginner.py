@@ -29,8 +29,7 @@ def approach_traffic_light(state, speed, distance, yellow_threshold=2):
         apply_brakes()
     else:
         # state is yellow
-        t = distance/float(speed)
-        if time_to_light(t) < yellow_threshold:
+        if time_to_light(distance, speed) < yellow_threshold:
             continue_moving()
         else:
             apply_brakes()
@@ -44,8 +43,8 @@ def apply_brakes():
     pass
 
 
-def time_to_light():
-    pass
+def time_to_light(distance, speed):
+    return distance/float(speed)
 
 
 if __name__ == '__main__':
