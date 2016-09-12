@@ -32,10 +32,21 @@ Advanced -
    
 Advanced/Beginner - 
    write a `hello world` script and run it from pycharm - **demonstrate you can run a python script**
-   write a function that tells are car what to do as it approaches a traffic light
+   write a function that tells a car what to do as it approaches a traffic light
      the states are: 1) green == go 2) red == stop and 3) yellow ==? Think about what your definition of yellow would be
      and then try to define using code, i.e if/else statements
      **demonstrate understanding of if/else statements, boolean logic** 
      
-     
+
+Use your discretion in how much you want to populate your function/methods e.g.
+```python
+def approach_traffic_light(a,b,c,d)
+   if a == 'green':
+      continue_moving()
+      
+def continue_moving():
+    # no need to fill in anything here. we are not concerned with the actual mechanics of making the car go.
+    pass
+
+```
    
