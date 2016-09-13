@@ -15,6 +15,10 @@ Current status
 
 This week
 ---------
+- beginning exercise
+  
+  hello world in pycharm 2 ways: Python Console, Run as script
+
 - variable_naming.md
 - go over last weeks code
 
