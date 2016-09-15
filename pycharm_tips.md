@@ -24,6 +24,7 @@ File Templates
 ==============
 
 Use file templates to add boilerplate text to every new python file
+
 1. Preferences(Settings) > Editor >  File and Code Templates
 2. Select "Python Script" under Files 
 3. Add the text you want added to every new python file
