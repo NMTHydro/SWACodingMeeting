@@ -22,7 +22,7 @@ class Boat(Vehicle):
 
         Vehicle.__init__(self, self.make, self.model, self.year, kind='Boat')
         self.power = power
-        ## ## ##
+        ## ## ## ##
 
 
 # ============================ EOF =============================
