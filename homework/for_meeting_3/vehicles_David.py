@@ -25,4 +25,10 @@ class Boat(Vehicle):
         ## ## ##
 
 
+class Airplane(Vehicle):
+
+    def __init__(self):
+        pass
+
+
 # ============================ EOF =============================
