@@ -42,6 +42,6 @@ class Airplane(Vehicle):
 
 if __name__ == '__main__':
     car = Car('honda', 'civic', '2002', '2')
-    car.foo(1,2,3)
+    car.foo(1, 2, 3)
 
 # ============================ EOF =============================
