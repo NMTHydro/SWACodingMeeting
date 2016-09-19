@@ -20,3 +20,13 @@ The table provides the name of the shortcut and the combination of keys I person
 |Duplicate Line or Selection| Opt+Cmd+UpArrow/Opt+Cmd+DownArrow | Copy a line of text up/down|
 |Add Selection to Next Occurence|Ctrl+G| Place a new cursor at the next occurence of an active string|
 
+File Templates
+==============
+
+Use file templates to add boilerplate text to every new python file
+
+1. Preferences(Settings) > Editor >  File and Code Templates
+2. Select "Python Script" under Files 
+3. Add the text you want added to every new python file
+4. Click Apply, Click Ok
+5. Test
