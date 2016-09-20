@@ -7,6 +7,10 @@ Current status
 ------------------------
 - one new thing you learned
 
+- review using pycharm. make a new python file
+- don't forget about pycharm_tips, and variable_naming
+- setup your python file template
+
 - git
   what is a git
             github
@@ -18,7 +22,6 @@ Current status
             
 This week
 ---------
-
 - Go over last week
 - Designing a Model
 
