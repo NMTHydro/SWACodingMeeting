@@ -19,7 +19,7 @@
 
 
 def do_hello_world():
-    print('hello world')
+    print 'hello world'
 
 
 def approach_traffic_light(state, speed, distance, yellow_threshold=2):
@@ -36,19 +36,18 @@ def approach_traffic_light(state, speed, distance, yellow_threshold=2):
 
 
 def continue_moving():
-    pass
+    print 'continue moving'
 
 
 def apply_brakes():
-    pass
+    print 'apply brakes'
 
 
 def time_to_light(distance, speed):
     return distance/float(speed)
 
 
-if __name__ == '__main__':
-    do_hello_world()
 
-    # this is a change
+if __name__ == '__main__':
+    approach_traffic_light('green', 10, 10)
 # ============= EOF =============================================
