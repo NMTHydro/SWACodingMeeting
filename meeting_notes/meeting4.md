@@ -1,4 +1,4 @@
-9/13
+10/4
 - beginning exercise
     - write a function takes two lists( or arrays) and col stacks them and returns a new list( or array)
     - write a function takes two lists( or arrays) and row stacks them and returns a new list(or array)
@@ -33,9 +33,11 @@ what is
    - branch
    - origin
    - head
+   
             
-This week
----------
+Potential Topics for this week
+------------------------------
+- git/github
 - Why `if __name__ == '__main__ '`
 - Designing a Model
 - What would you like to do?
